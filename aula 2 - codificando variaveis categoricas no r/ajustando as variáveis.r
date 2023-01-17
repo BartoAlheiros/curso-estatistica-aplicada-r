@@ -30,14 +30,14 @@ glimpse(dados)
 
 ############### Ajustando as vari?veis ###############
 
-# Transformando G?nero em fator:
+# Transformando Gênero em fator:
 
 dados$Genero <- factor(dados$Genero, label = c("M", "F"), levels = c(0, 1))
 
 
 # Transformando Grau de Instru??o em fator:
 
-dados$Grau_de_Instru?ao <- factor(dados$Grau_de_Instru?ao,
+dados$Grau_de_Instrucao <- factor(dados$Grau_de_Instrucao,
                                   label = c("Fundamental", "Medio", "Superior"),
                                   levels = 0:2, order = T)
 
